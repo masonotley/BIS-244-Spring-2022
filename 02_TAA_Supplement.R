@@ -27,6 +27,10 @@ COUNTIES <- read_csv("us-counties.csv")
 # Switching the working directory back to the project folder
 setwd(Temp)
 
+# Alternative way to access subfolders
+library(here)
+COUNTIES <- read_csv(here("covid-19-data","us-counties.csv"))
+
 # Examining the data
 View(COUNTIES)
 
