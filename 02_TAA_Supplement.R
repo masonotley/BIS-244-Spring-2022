@@ -19,6 +19,7 @@ library(tidyverse)
 Temp <- getwd()
 
 # Switching the working directory to the covid-19-data subfolder
+# Going into the covid-19-data folder
 setwd("./covid-19-data/")
 
 # Reading the us.counties.csv in as a data frame
